@@ -13,3 +13,19 @@ console.log({
     pid,
     input,
 });
+
+h1.innerHTML = 'Patito <br> Feo';
+h1.innerText = 'Patito <br> Feo';
+// console.log(h1.getAttribute('class'));
+// h1.setAttribute('class', 'rojo')
+
+h1.classList.add('rojo');
+h1.classList.remove('verde');
+
+input.value = "465";
+
+const img = document.createElement('img');
+img.setAttribute('src', 'https://cafans.b-cdn.net/images/Category_63376/subcat_221960/BdhMO6h5_1312211059461gpadd.jpeg');
+
+pid.innerHTML = "";
+pid.appendChild(img);
